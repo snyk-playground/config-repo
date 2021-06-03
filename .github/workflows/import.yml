@@ -19,5 +19,6 @@ jobs:
           COMMIT_EMAIL: 'example@example.com'
           PR_BRANCH_NAME: 'chore-api-import-update-${PR_ID}'
           PR_TITLE: 'chore: update org list'
+        env:
           SNYK_LOG_PATH: 'org_data'
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
