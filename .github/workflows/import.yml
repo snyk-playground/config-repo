@@ -4,32 +4,20 @@ name: api-import
 on:
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   create-org-data:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-
-      # Installs all our snyk tools
-      - name: Install snyk resources
-        run: /bin/bash ${GITHUB_WORKSPACE}/scripts/install_snyk_tools.sh
-
-      # this builds the list of repositories we want to import
-      - name: Execute API import to get the list of 
-        run: snyk-api-import import:data --orgsData=org-data.json --source=github --integrationType=github-enterprise
-        env:
+      - name: Generate list of potential projects to import
+        uses: technote-space/create-pr-action@v2
+        with:
+         EXECUTE_COMMANDS: |
+           /bin/bash scripts/install_snyk_tools.sh
+           snyk-api-import import:data --orgsData=org-data.json --source=github --integrationType=github-enterprise
+          COMMIT_MESSAGE: 'chore: Update Orgs to Import'
+          COMMIT_NAME: 'GitHub Actions'
+          COMMIT_EMAIL: 'example@example.com'
+          PR_BRANCH_NAME: 'chore-api-import-update-${PR_ID}'
+          PR_TITLE: 'chore: update org list'
           SNYK_LOG_PATH: 'org_data'
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
-      - name: Commit & Push changes
-        uses: actions-js/push@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: 'main'
