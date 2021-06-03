@@ -14,7 +14,7 @@ curl -s https://api.github.com/repos/snyk/snyk/releases/latest \
 curl -s https://api.github.com/repos/snyk-tech-services/snyk-api-import/releases/latest \
     | jq -c '.assets[] | select (.browser_download_url | contains ("linux")) | .browser_download_url' \
     | xargs -I snyk_url curl -s -L -O snyk_url && sha256sum -c snyk-api-import-linux.sha256 && \
-    mv snyk-api-import-linux /usr/local/bin/snyk-api-import && chmod +x /usr/local/bin/snyk-api-import
+    mv snyk-api-import-linux "${CWD}"/.bin/snyk-api-import && chmod +x "${CWD}"/.bin/snyk-api-import
 
 cd "${CWD}" || exit
 
