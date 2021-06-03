@@ -11,7 +11,7 @@ jobs:
       - name: Generate list of potential projects to import
         uses: technote-space/create-pr-action@v2
         with:
-         EXECUTE_COMMANDS: |
+          EXECUTE_COMMANDS: |
            /bin/bash scripts/install_snyk_tools.sh
            snyk-api-import import:data --orgsData=org-data.json --source=github --integrationType=github-enterprise
           COMMIT_MESSAGE: 'chore: Update Orgs to Import'
