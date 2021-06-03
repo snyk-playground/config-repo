@@ -7,7 +7,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
+  create-org-data:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -16,12 +16,20 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # Runs a single command using the runners shell
+      # Installs all our snyk tools
       - name: Install snyk resources
         run: /bin/bash ${GITHUB_WORKSPACE}/scripts/install_snyk_tools.sh
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+      # this builds the list of repositories we want to import
+      - name: Execute API import to get the list of 
+        run: snyk-api-import import:data --orgsData=org-data.json --source=github --integrationType=github-enterprise
+        env:
+          SNYK_LOG_PATH: 'org_data'
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Commit & Push changes
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: 'main'
