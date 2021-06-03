@@ -22,3 +22,4 @@ jobs:
         env:
           SNYK_LOG_PATH: 'org_data'
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
