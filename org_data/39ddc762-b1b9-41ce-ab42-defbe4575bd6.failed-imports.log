@@ -1,0 +1,38 @@
+{
+  "name": "snyk:import-projects-script",
+  "hostname": "fv-az90-740",
+  "pid": 1722,
+  "level": 50,
+  "integrationId": "b87e1473-37ab-4f09-a4e3-a0139a50e81e",
+  "target": {
+    "fork": true,
+    "name": "goof",
+    "owner": "snyk-playground",
+    "branch": "master"
+  },
+  "errorData": {
+    "errorMessage": "Please set the SNYK_TOKEN e.g. export SNYK_TOKEN='*****'"
+  },
+  "msg": "Failed to import target",
+  "time": "2021-06-04T15:03:48.696Z",
+  "v": 0
+}
+{
+  "name": "snyk:import-projects-script",
+  "hostname": "fv-az90-740",
+  "pid": 1722,
+  "level": 50,
+  "integrationId": "b87e1473-37ab-4f09-a4e3-a0139a50e81e",
+  "target": {
+    "fork": true,
+    "name": "mqttclientdashboard-akamai-fastpurge-msod",
+    "owner": "snyk-playground",
+    "branch": "master"
+  },
+  "errorData": {
+    "errorMessage": "Please set the SNYK_TOKEN e.g. export SNYK_TOKEN='*****'"
+  },
+  "msg": "Failed to import target",
+  "time": "2021-06-04T15:03:48.697Z",
+  "v": 0
+}
