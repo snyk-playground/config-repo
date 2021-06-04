@@ -15,7 +15,7 @@ jobs:
             /bin/bash scripts/install_snyk_tools.sh
             /bin/bash scripts/generate_import_data.sh
           COMMIT_MESSAGE: 'chore: Update Orgs to Import'
-          COMMIT_NAME: 'GitHub Actions'
+          COMMIT_NAME: 'SnykBot 3000'
           COMMIT_EMAIL: 'example@example.com'
           PR_BRANCH_NAME: 'chore-api-import-update-${PR_ID}'
           PR_TITLE: 'chore: update org list'
