@@ -58,3 +58,33 @@
   "time": "2021-06-04T15:15:43.648Z",
   "v": 0
 }
+{
+  "name": "snyk:import-projects-script",
+  "hostname": "fv-az139-148",
+  "pid": 1711,
+  "level": 30,
+  "orgId": "39ddc762-b1b9-41ce-ab42-defbe4575bd6",
+  "locationUrl": "https://snyk.io/api/v1/org/39ddc762-b1b9-41ce-ab42-defbe4575bd6/integrations/b87e1473-37ab-4f09-a4e3-a0139a50e81e/import/f035a2f4-5780-46cc-8696-5aec468ec2a7",
+  "projectId": "27383066-c33f-4ada-8a78-48632f3fd477",
+  "targetFile": "package.json",
+  "success": true,
+  "projectUrl": "https://app.snyk.io/org/ie-playground/project/27383066-c33f-4ada-8a78-48632f3fd477",
+  "msg": "Imported project",
+  "time": "2021-06-04T15:26:24.002Z",
+  "v": 0
+}
+{
+  "name": "snyk:import-projects-script",
+  "hostname": "fv-az139-148",
+  "pid": 1711,
+  "level": 30,
+  "orgId": "39ddc762-b1b9-41ce-ab42-defbe4575bd6",
+  "locationUrl": "https://snyk.io/api/v1/org/39ddc762-b1b9-41ce-ab42-defbe4575bd6/integrations/b87e1473-37ab-4f09-a4e3-a0139a50e81e/import/f035a2f4-5780-46cc-8696-5aec468ec2a7",
+  "projectId": "c06fdb90-28fa-421d-b2bc-d286f7929fe1",
+  "targetFile": "package.json",
+  "success": true,
+  "projectUrl": "https://app.snyk.io/org/ie-playground/project/c06fdb90-28fa-421d-b2bc-d286f7929fe1",
+  "msg": "Imported project",
+  "time": "2021-06-04T15:26:24.002Z",
+  "v": 0
+}

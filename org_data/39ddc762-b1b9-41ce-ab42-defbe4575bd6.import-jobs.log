@@ -42,3 +42,25 @@
   "time": "2021-06-04T15:15:22.878Z",
   "v": 0
 }
+{
+  "name": "snyk:import-projects-script",
+  "hostname": "fv-az139-148",
+  "pid": 1711,
+  "level": 30,
+  "orgId": "39ddc762-b1b9-41ce-ab42-defbe4575bd6",
+  "pollingUrl": "https://snyk.io/api/v1/org/39ddc762-b1b9-41ce-ab42-defbe4575bd6/integrations/b87e1473-37ab-4f09-a4e3-a0139a50e81e/import/f035a2f4-5780-46cc-8696-5aec468ec2a7",
+  "msg": "Kicked off import",
+  "time": "2021-06-04T15:26:03.255Z",
+  "v": 0
+}
+{
+  "name": "snyk:import-projects-script",
+  "hostname": "fv-az139-148",
+  "pid": 1711,
+  "level": 30,
+  "orgId": "39ddc762-b1b9-41ce-ab42-defbe4575bd6",
+  "pollingUrl": "https://snyk.io/api/v1/org/39ddc762-b1b9-41ce-ab42-defbe4575bd6/integrations/b87e1473-37ab-4f09-a4e3-a0139a50e81e/import/f035a2f4-5780-46cc-8696-5aec468ec2a7",
+  "msg": "Kicked off import",
+  "time": "2021-06-04T15:26:03.262Z",
+  "v": 0
+}
