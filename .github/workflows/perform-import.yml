@@ -22,6 +22,7 @@ jobs:
       env:
         SNYK_LOG_PATH: 'org_data'
         SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+        SNYK_SECRET: ${{ secrets.SNYK_SECRET }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Commit & Push changes
       uses: actions-js/push@master
