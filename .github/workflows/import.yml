@@ -13,7 +13,7 @@ jobs:
         with:
           EXECUTE_COMMANDS: |
             /bin/bash scripts/install_snyk_tools.sh
-            .bin/snyk-api-import import:data --orgsData=org-data.json --source=github --integrationType=github-enterprise
+            /bin/bash scripts/generate_import_data.sh
           COMMIT_MESSAGE: 'chore: Update Orgs to Import'
           COMMIT_NAME: 'GitHub Actions'
           COMMIT_EMAIL: 'example@example.com'
@@ -22,3 +22,4 @@ jobs:
         env:
           SNYK_LOG_PATH: 'org_data'
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
