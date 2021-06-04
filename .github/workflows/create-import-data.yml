@@ -1,5 +1,4 @@
-name: api-import
-
+name: create-import-data
 
 on:
   workflow_dispatch:

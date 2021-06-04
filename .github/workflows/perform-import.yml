@@ -1,0 +1,28 @@
+name: perform-import
+
+on:
+  push:
+      branches:
+        - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+      with:
+        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+        fetch-depth: 0 
+    - name: Import Projects to snyk
+      run: |
+        /bin/bash scripts/perform_import.sh
+        /bin/bash scripts/prettify.sh
+      env:
+        SNYK_LOG_PATH: 'org_data'
+        SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Commit & Push changes
+      uses: actions-js/push@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}

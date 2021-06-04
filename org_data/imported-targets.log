@@ -1,0 +1,108 @@
+{
+  "name": "snyk:import-projects-script",
+  "hostname": "2f591ef11735",
+  "pid": 7,
+  "level": 30,
+  "target": {
+    "name": "monorepo-simple",
+    "owner": "snyk-playground",
+    "branch": "master"
+  },
+  "locationUrl": null,
+  "orgId": "39ddc762-b1b9-41ce-ab42-defbe4575bd6",
+  "integrationId": "b87e1473-37ab-4f09-a4e3-a0139a50e81e",
+  "targetId": "39ddc762-b1b9-41ce-ab42-defbe4575bd6:b87e1473-37ab-4f09-a4e3-a0139a50e81e:monorepo-simple:snyk-playground:master",
+  "msg": "Target exists in Snyk",
+  "time": "2021-06-04T14:20:25.281Z",
+  "v": 0
+}
+{
+  "name": "snyk:import-projects-script",
+  "hostname": "2f591ef11735",
+  "pid": 22,
+  "level": 30,
+  "target": {
+    "name": "goof",
+    "owner": "snyk-playground",
+    "branch": "master"
+  },
+  "locationUrl": "https://snyk.io/api/v1/org/39ddc762-b1b9-41ce-ab42-defbe4575bd6/integrations/b87e1473-37ab-4f09-a4e3-a0139a50e81e/import/9f238390-355b-4098-8344-d958bf310fe4",
+  "orgId": "39ddc762-b1b9-41ce-ab42-defbe4575bd6",
+  "integrationId": "b87e1473-37ab-4f09-a4e3-a0139a50e81e",
+  "targetId": "39ddc762-b1b9-41ce-ab42-defbe4575bd6:b87e1473-37ab-4f09-a4e3-a0139a50e81e:goof:snyk-playground:master",
+  "msg": "Target requested for import",
+  "time": "2021-06-04T14:27:42.642Z",
+  "v": 0
+}
+{
+  "name": "snyk:import-projects-script",
+  "hostname": "2f591ef11735",
+  "pid": 22,
+  "level": 30,
+  "target": {
+    "name": "mqttclientdashboard-akamai-fastpurge-msod",
+    "owner": "snyk-playground",
+    "branch": "master"
+  },
+  "locationUrl": "https://snyk.io/api/v1/org/39ddc762-b1b9-41ce-ab42-defbe4575bd6/integrations/b87e1473-37ab-4f09-a4e3-a0139a50e81e/import/9f238390-355b-4098-8344-d958bf310fe4",
+  "orgId": "39ddc762-b1b9-41ce-ab42-defbe4575bd6",
+  "integrationId": "b87e1473-37ab-4f09-a4e3-a0139a50e81e",
+  "targetId": "39ddc762-b1b9-41ce-ab42-defbe4575bd6:b87e1473-37ab-4f09-a4e3-a0139a50e81e:mqttclientdashboard-akamai-fastpurge-msod:snyk-playground:master",
+  "msg": "Target requested for import",
+  "time": "2021-06-04T14:27:42.676Z",
+  "v": 0
+}
+{
+  "name": "snyk:import-projects-script",
+  "hostname": "2f591ef11735",
+  "pid": 34,
+  "level": 30,
+  "target": {
+    "name": "mqttclientdashboard-akamai-fastpurge-msod",
+    "owner": "snyk-playground",
+    "branch": "master"
+  },
+  "locationUrl": null,
+  "orgId": "39ddc762-b1b9-41ce-ab42-defbe4575bd6",
+  "integrationId": "b87e1473-37ab-4f09-a4e3-a0139a50e81e",
+  "targetId": "39ddc762-b1b9-41ce-ab42-defbe4575bd6:b87e1473-37ab-4f09-a4e3-a0139a50e81e:mqttclientdashboard-akamai-fastpurge-msod:snyk-playground:master",
+  "msg": "Target exists in Snyk",
+  "time": "2021-06-04T14:28:04.406Z",
+  "v": 0
+}
+{
+  "name": "snyk:import-projects-script",
+  "hostname": "2f591ef11735",
+  "pid": 34,
+  "level": 30,
+  "target": {
+    "name": "goof",
+    "owner": "snyk-playground",
+    "branch": "master"
+  },
+  "locationUrl": null,
+  "orgId": "39ddc762-b1b9-41ce-ab42-defbe4575bd6",
+  "integrationId": "b87e1473-37ab-4f09-a4e3-a0139a50e81e",
+  "targetId": "39ddc762-b1b9-41ce-ab42-defbe4575bd6:b87e1473-37ab-4f09-a4e3-a0139a50e81e:goof:snyk-playground:master",
+  "msg": "Target exists in Snyk",
+  "time": "2021-06-04T14:28:04.406Z",
+  "v": 0
+}
+{
+  "name": "snyk:import-projects-script",
+  "hostname": "2f591ef11735",
+  "pid": 34,
+  "level": 30,
+  "target": {
+    "name": "monorepo-simple",
+    "owner": "snyk-playground",
+    "branch": "master"
+  },
+  "locationUrl": null,
+  "orgId": "39ddc762-b1b9-41ce-ab42-defbe4575bd6",
+  "integrationId": "b87e1473-37ab-4f09-a4e3-a0139a50e81e",
+  "targetId": "39ddc762-b1b9-41ce-ab42-defbe4575bd6:b87e1473-37ab-4f09-a4e3-a0139a50e81e:monorepo-simple:snyk-playground:master",
+  "msg": "Target exists in Snyk",
+  "time": "2021-06-04T14:28:04.406Z",
+  "v": 0
+}
