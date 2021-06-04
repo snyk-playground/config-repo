@@ -37,3 +37,57 @@
   "time": "2021-06-04T14:28:03.361Z",
   "v": 0
 }
+{
+  "name": "snyk:import-projects-script",
+  "hostname": "fv-az133-514",
+  "pid": 1717,
+  "level": 30,
+  "locationUrl": "https://snyk.io/api/v1/org/39ddc762-b1b9-41ce-ab42-defbe4575bd6/integrations/b87e1473-37ab-4f09-a4e3-a0139a50e81e/import/9b71e546-7475-43f2-b782-fded89fed972",
+  "id": "9b71e546-7475-43f2-b782-fded89fed972",
+  "status": "complete",
+  "created": "2021-06-04T15:15:22.796Z",
+  "logs": [
+    {
+      "name": "snyk-playground/mqttclientdashboard-akamai-fastpurge-msod",
+      "created": "2021-06-04T15:15:22.815Z",
+      "status": "complete",
+      "projects": [
+        {
+          "targetFile": "package.json",
+          "success": true,
+          "projectUrl": "https://app.snyk.io/org/ie-playground/project/c06fdb90-28fa-421d-b2bc-d286f7929fe1"
+        }
+      ]
+    }
+  ],
+  "msg": "Import job result",
+  "time": "2021-06-04T15:15:43.645Z",
+  "v": 0
+}
+{
+  "name": "snyk:import-projects-script",
+  "hostname": "fv-az133-514",
+  "pid": 1717,
+  "level": 30,
+  "locationUrl": "https://snyk.io/api/v1/org/39ddc762-b1b9-41ce-ab42-defbe4575bd6/integrations/b87e1473-37ab-4f09-a4e3-a0139a50e81e/import/be386518-bed0-40e9-8855-973f294c1509",
+  "id": "be386518-bed0-40e9-8855-973f294c1509",
+  "status": "complete",
+  "created": "2021-06-04T15:15:22.788Z",
+  "logs": [
+    {
+      "name": "snyk-playground/goof",
+      "created": "2021-06-04T15:15:22.814Z",
+      "status": "complete",
+      "projects": [
+        {
+          "targetFile": "package.json",
+          "success": true,
+          "projectUrl": "https://app.snyk.io/org/ie-playground/project/27383066-c33f-4ada-8a78-48632f3fd477"
+        }
+      ]
+    }
+  ],
+  "msg": "Import job result",
+  "time": "2021-06-04T15:15:43.647Z",
+  "v": 0
+}
