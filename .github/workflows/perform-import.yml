@@ -16,6 +16,7 @@ jobs:
         fetch-depth: 0 
     - name: Import Projects to snyk
       run: |
+        echo "Snyk Secret 2 is: ${SNYK_SECRET}"
         /bin/bash scripts/install_snyk_tools.sh
         /bin/bash scripts/perform_import.sh
         /bin/bash scripts/prettify.sh
