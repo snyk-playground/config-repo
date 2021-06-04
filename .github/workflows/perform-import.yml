@@ -19,7 +19,6 @@ jobs:
         echo "Snyk Secret 2 is: ${SNYK_SECRET}"
         /bin/bash scripts/install_snyk_tools.sh
         /bin/bash scripts/perform_import.sh
-        /bin/bash scripts/prettify.sh
       env:
         SNYK_LOG_PATH: 'org_data'
         SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
