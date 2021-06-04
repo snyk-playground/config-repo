@@ -48,3 +48,13 @@
   "time": "2021-06-04T15:11:46.296Z",
   "v": 0
 }
+{
+  "name": "snyk:import-projects-script",
+  "hostname": "fv-az118-719",
+  "pid": 1813,
+  "level": 30,
+  "message": "Importing batch 1 - 1 out of 2 ",
+  "msg": "Kicked off import",
+  "time": "2021-06-04T15:13:27.433Z",
+  "v": 0
+}
