@@ -2,7 +2,7 @@ Ensure that Snyk is configured properly and collecting information on Snyk Playg
 # config-repo
 This project is a collection of workflows to automate the Snyk platform for different use cases.
 
-## Automated Snyk Project Imports
+## Automated Snyk Project Imports (SCM Integration)
 These workflows will detect and import any new repositories into Snyk that are created in the same Github org where this lives.
 
 | workflow | Description |
