@@ -1,5 +1,5 @@
 Ensure that Snyk is configured properly and collecting information on Snyk Playground properly
-# config-repo
+# Snyk config-repo
 This project is a collection of workflows to automate the Snyk platform for different use cases.
 
 ## Automated Snyk Project Imports (SCM Integration)
