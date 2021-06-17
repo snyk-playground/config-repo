@@ -7,5 +7,5 @@ These workflows will detect and import any new repositories into Snyk that are c
 
 | workflow | Description |
 | --- | ----------- |
-| [create-import-data.yml](.github/workflows/create-import-data.yaml) | generate an import file on a new branch for snyk-api-import to consume and raise a pull request |
-| [perform-import.yml](.github/workflows/perform-import.yaml) | import all repositories from the import file into Snyk (skipping previously seen ones) upon merge of the pull request |
+| [create-import-data.yml](https://github.com/snyk-playground/config-repo/tree/main/.github/workflows/create-import-data.yml) | generate an import file on a new branch for snyk-api-import to consume and raise a pull request |
+| [perform-import.yml](https://github.com/snyk-playground/config-repo/tree/main/.github/workflows/perform-import.yml) | import all repositories from the import file into Snyk (skipping previously seen ones) upon merge of the pull request |
