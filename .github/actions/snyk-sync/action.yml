@@ -4,7 +4,7 @@ branding:
   icon: 'search'
   color: 'red'
 inputs:
-  command:
+  arguments:
     description: 'snyk sync arguments to run'
     required: true
 runs:
