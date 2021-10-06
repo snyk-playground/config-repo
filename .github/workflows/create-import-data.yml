@@ -12,8 +12,10 @@ jobs:
       - name: Run snyk-sync to generate targets
         uses: ./.github/actions/snyk-sync
         with:
-          arguments: |
-            --sync targets --save
+          arguments:
+            - --sync
+            - targets
+            - --save
         env:
           SNYK_SYNC_GROUP: '36863d40-ba29-491f-af63-7a1a7d79e411'
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
