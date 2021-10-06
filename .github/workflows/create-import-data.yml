@@ -8,9 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run snyk-sync to generate targets
-        uses: docker://mrzarquon/snyk-sync:latest
-        args:
-          - "targets --save"
+        uses: ./.github/actions/snyk-sync.yml
+        with:
+          arguments: |
+            --sync targets --save
         env:
           SNYK_SYNC_GROUP: '36863d40-ba29-491f-af63-7a1a7d79e411'
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
