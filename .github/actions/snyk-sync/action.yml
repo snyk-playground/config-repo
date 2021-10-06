@@ -1,7 +1,7 @@
 name: 'snyk-sync'
 description: 'Runs the snyk-sync scripts'
 branding:
-  icon: 'command'
+  icon: 'search'
   color: 'red'
 inputs:
   command:
