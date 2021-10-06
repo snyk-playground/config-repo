@@ -7,12 +7,16 @@ jobs:
   create-org-data:
     runs-on: ubuntu-latest
     steps:
+      - name: Run snyk-sync to generate targets
+        uses: docker://mrzarquon/snyk-sync:latest
+        run: /usr/local/bin/python /app/snyk_sync/cli.py targets --save
+        env:
+          SNYK_SYNC_GROUP: '36863d40-ba29-491f-af63-7a1a7d79e411'
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Generate list of potential projects to import
         uses: technote-space/create-pr-action@v2
         with:
-          EXECUTE_COMMANDS: |
-            /bin/bash scripts/install_snyk_tools.sh
-            /bin/bash scripts/generate_import_data.sh
           COMMIT_MESSAGE: 'chore: Update Orgs to Import'
           COMMIT_NAME: 'SnykBot 3000'
           COMMIT_EMAIL: 'example@example.com'
