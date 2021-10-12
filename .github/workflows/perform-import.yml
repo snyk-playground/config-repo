@@ -7,23 +7,28 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-      with:
-        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
-        fetch-depth: 0 
-    - name: Import Projects to snyk
-      run: |
-        echo "Snyk Secret 2 is: ${SNYK_SECRET}"
-        /bin/bash scripts/install_snyk_tools.sh
-        /bin/bash scripts/perform_import.sh
-      env:
-        SNYK_LOG_PATH: 'org_data'
-        SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-        SNYK_SECRET: ${{ secrets.SNYK_SECRET }}
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SNYK_IMPORT_PATH: "import-targets.json"
-    - name: Commit & Push changes
-      uses: actions-js/push@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.ref }}
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Run snyk-api-import to import new repositories
+        uses: ./.github/actions/snyk-api-import
+        with:
+          arguments: --file /github/workspace/import-targets.json
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+          SNYK_IMPORT_PATH: "/github/workspace/import-targets.json"
+          SNYK_LOG_PATH: "/github/workspace/org_data/"
+      - name: Run snyk-sync to update tags
+        uses: ./.github/actions/snyk-sync
+        with:
+          arguments: --sync tags --update
+        env:
+          SNYK_SYNC_GROUP: '36863d40-ba29-491f-af63-7a1a7d79e411'
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: API Import Logs and Tag Updates
+          title: API Import Results
+          body: Repositories and logs of last import
+          branch: update-api-new-projects
