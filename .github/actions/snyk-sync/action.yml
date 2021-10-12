@@ -9,6 +9,6 @@ inputs:
     required: true
 runs:
   using: 'docker'
-  image: 'docker://mrzarquon/snyk-sync:latest'
+  image: 'docker://ghcr.io/snyk-playground/snyk-sync:latest'
   args:
     - ${{ inputs.arguments }}
