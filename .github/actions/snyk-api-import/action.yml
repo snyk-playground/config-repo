@@ -1,0 +1,15 @@
+name: 'snyk-sync'
+description: 'Runs the snyk-api-import tool'
+branding:
+  icon: 'search'
+  color: 'red'
+inputs:
+  arguments:
+    description: 'arguments for snyk-api-import'
+    required: true
+runs:
+  using: 'docker'
+  image: 'docker://ghcr.io/snyk-playground/snyk-sync:latest'
+  entrypoint: '/usr/local/bin/entrypoint-api-import.sh'
+  args:
+    - ${{ inputs.arguments }}
