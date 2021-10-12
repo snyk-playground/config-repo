@@ -12,6 +12,16 @@
     },
     {
       "target": {
+        "fork": false,
+        "name": "org-project-import",
+        "owner": "snyk-playground",
+        "branch": "main"
+      },
+      "integrationId": "20859d9c-fc25-4c26-9925-2e9356aad608",
+      "orgId": "da450e98-1581-4cd1-a4fc-06a3b76f5004"
+    },
+    {
+      "target": {
         "fork": true,
         "name": "goof",
         "owner": "snyk-playground",
