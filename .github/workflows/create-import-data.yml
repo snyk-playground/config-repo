@@ -17,15 +17,10 @@ jobs:
           SNYK_SYNC_GROUP: '36863d40-ba29-491f-af63-7a1a7d79e411'
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Generate list of potential projects to import
-        uses: technote-space/create-pr-action@v2
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
         with:
-          COMMIT_MESSAGE: 'chore: Update Orgs to Import'
-          COMMIT_NAME: 'SnykBot 3000'
-          COMMIT_EMAIL: 'example@example.com'
-          PR_BRANCH_NAME: 'chore-api-import-update-${PR_ID}'
-          PR_TITLE: 'chore: update org list'
-        env:
-          SNYK_LOG_PATH: 'org_data'
-          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: Updated list of Repositories to Import
+          title: Updated Repo List
+          body: New repositories to be imported
+          branch: update-import-targets
