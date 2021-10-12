@@ -74,7 +74,7 @@
             "project_base": "snyk-playground/config-repo"
         },
         "id": 371078105,
-        "updated_at": "2021-10-12 10:05:13",
+        "updated_at": "2021-10-12 10:09:15",
         "import_sha": "",
         "projects": [],
         "tags": [],
@@ -579,23 +579,6 @@
         "org": "default"
     },
     {
-        "url": "https://github.com/snyk-playground/goof",
-        "source": {
-            "fork": true,
-            "name": "goof",
-            "owner": "snyk-playground",
-            "branch": "master",
-            "url": "https://github.com/snyk-playground/goof",
-            "project_base": "snyk-playground/goof"
-        },
-        "id": 121461181,
-        "updated_at": "2021-08-25 12:41:31",
-        "import_sha": "",
-        "projects": [],
-        "tags": [],
-        "org": "default"
-    },
-    {
         "url": "https://github.com/snyk-playground/npm-check-updates",
         "source": {
             "fork": true,
@@ -613,6 +596,52 @@
                 "id": "2417328a-1ac5-456d-b288-93a0735c6af0",
                 "name": "snyk-playground/npm-check-updates(master):package.json",
                 "lastTestedDate": "2021-10-12T01:56:51.429Z",
+                "tags": [],
+                "branch": "master",
+                "type": "npm",
+                "readOnly": false,
+                "testFrequency": "daily",
+                "isMonitored": true,
+                "org_id": "39ddc762-b1b9-41ce-ab42-defbe4575bd6",
+                "org_name": "ie-playground",
+                "origin": "github-enterprise"
+            }
+        ],
+        "tags": [],
+        "org": "default"
+    },
+    {
+        "url": "https://github.com/snyk-playground/goof",
+        "source": {
+            "fork": true,
+            "name": "goof",
+            "owner": "snyk-playground",
+            "branch": "master",
+            "url": "https://github.com/snyk-playground/goof",
+            "project_base": "snyk-playground/goof"
+        },
+        "id": 121461181,
+        "updated_at": "2021-08-25 12:41:31",
+        "import_sha": "",
+        "projects": [
+            {
+                "id": "416f83a5-ec40-49d0-847c-ee3bc375798a",
+                "name": "snyk-playground/goof(master)",
+                "lastTestedDate": "2021-10-12T10:12:16.968Z",
+                "tags": [],
+                "branch": "master",
+                "type": "sast",
+                "readOnly": false,
+                "testFrequency": "weekly",
+                "isMonitored": true,
+                "org_id": "39ddc762-b1b9-41ce-ab42-defbe4575bd6",
+                "org_name": "ie-playground",
+                "origin": "github-enterprise"
+            },
+            {
+                "id": "d7ba3228-fbc8-40f3-b67c-1b2715203f7d",
+                "name": "snyk-playground/goof(master):package.json",
+                "lastTestedDate": "2021-10-12T10:10:17.470Z",
                 "tags": [],
                 "branch": "master",
                 "type": "npm",
