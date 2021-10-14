@@ -14,6 +14,7 @@ This repository is an example of how to setup Snyk Sync.
 2) Add a new [GitHub Enterprise integration](https://docs.snyk.io/features/integrations/git-repository-scm-integrations/github-enterprise-integration) to an existing Snyk Organization that is the intended catch all organization.All projects from all repositories will end up in this organization unless otherwise specified via an [import.yaml](https://github.com/snyk-playground/org-project-import/blob/main/.snyk.d/import.yaml) override.
 
     - **Disable All Disruptive Actions** ensure all options on the GitHub Enterprise Integrations page are disabled, with the exception of "Auto-detect Dockerfiles"
+    - If you are a GitHub.com user, use `https://api.github.com` as the url
     - use the new GitHub Token you've just created
 
 <br>
