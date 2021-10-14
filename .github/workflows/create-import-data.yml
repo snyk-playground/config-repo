@@ -14,9 +14,8 @@ jobs:
         with:
           arguments: --sync targets --save
         env:
-          SNYK_SYNC_GROUP: '36863d40-ba29-491f-af63-7a1a7d79e411'
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.SNYK_GITHUB_TOKEN }}
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
