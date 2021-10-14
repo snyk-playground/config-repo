@@ -38,6 +38,18 @@ git add .
 
 ## Configuration
 
+### Short Version:
+
+Ensure you have the SNYK_TOKEN and GITHUB_TOKEN environment variable setup on your workstation where the repo is checked out. This assumes you have docker running/working on your workstation.
+
+Run the autoconf.sh script from the room of the repository, with the snyk org (as shortname/slug) you want to import repositories into followed by the github org you want to source the repositories from:
+
+`bash scripts/autoconf.sh snyk-org-slug github-org-name`
+
+This will replace the current snyk-sync.yaml and synk-orgs.yaml in the repository with ones pre-populated with values for your organization. Orgs are only added to snyk-orgs.yaml if they have a github-enterprise integration in place.
+
+### Long Version:
+
 Edit snyk-sync.yaml:
 1) Replace "snyk-playground" under `github_orgs` with your github organization
 2) Replace "36863d40-ba29-491f-af63-7a1a7d79e411" under `snyk:group:` with your Snyk Group ID (it is in your group settings page but also in your group pages: `https://app.snyk.io/group/GROUP-ID/reports/`)
