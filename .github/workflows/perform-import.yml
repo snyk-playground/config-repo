@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  import-and-tag:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -12,19 +12,18 @@ jobs:
       - name: Run snyk-api-import to import new repositories
         uses: ./.github/actions/snyk-api-import
         with:
-          arguments: --file /github/workspace/import-targets.json
+          arguments: import --file /github/workspace/import-targets.json
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-          SNYK_IMPORT_PATH: "/github/workspace/import-targets.json"
-          SNYK_LOG_PATH: "/github/workspace/org_data/"
+          SNYK_IMPORT_PATH: "import-targets.json"
+          SNYK_LOG_PATH: "cache/logs"
       - name: Run snyk-sync to update tags
         uses: ./.github/actions/snyk-sync
         with:
           arguments: --sync tags --update
         env:
-          SNYK_SYNC_GROUP: '36863d40-ba29-491f-af63-7a1a7d79e411'
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.SNYK_GITHUB_TOKEN }}
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
