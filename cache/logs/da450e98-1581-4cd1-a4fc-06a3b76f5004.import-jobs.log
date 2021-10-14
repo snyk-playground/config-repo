@@ -1,0 +1,1 @@
+{"name":"snyk:import-projects-script","hostname":"708d54675434","pid":7,"level":30,"orgId":"da450e98-1581-4cd1-a4fc-06a3b76f5004","pollingUrl":"https://snyk.io/api/v1/org/da450e98-1581-4cd1-a4fc-06a3b76f5004/integrations/20859d9c-fc25-4c26-9925-2e9356aad608/import/d9093d97-4eba-46c6-abd0-1fcfbf3562cb","msg":"Kicked off import","time":"2021-10-14T20:29:18.769Z","v":0}
