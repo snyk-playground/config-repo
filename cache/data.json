@@ -10,7 +10,7 @@
             "project_base": "snyk-playground/config-repo"
         },
         "id": 371078105,
-        "updated_at": "2021-12-02 16:15:01",
+        "updated_at": "2021-12-02 16:19:50",
         "import_sha": "",
         "full_name": "snyk-playground/config-repo",
         "projects": [],
@@ -75,38 +75,7 @@
         "updated_at": "2021-11-29 21:29:13",
         "import_sha": "61557a798e8887420d3c0cc08b20755b62815c35",
         "full_name": "snyk-playground/repo-with-jira-config",
-        "projects": [
-            {
-                "id": "eaba1166-c4df-4609-8639-556ba41ee9c4",
-                "name": "snyk-playground/repo-with-jira-config(development):nested/package.json",
-                "tags": [],
-                "branch": "development",
-                "type": "npm",
-                "status": "active",
-                "org_id": "da450e98-1581-4cd1-a4fc-06a3b76f5004",
-                "org_slug": "cse-ownership",
-                "origin": "github-enterprise",
-                "target": "e7a8c0dd-8ade-4e8b-89ee-fc70cf11aa7d",
-                "target_path": "nested/package.json",
-                "repo_name": "snyk-playground/repo-with-jira-config",
-                "repo_id": null
-            },
-            {
-                "id": "b1078656-cc56-4627-acc2-70ba4a75c187",
-                "name": "snyk-playground/repo-with-jira-config(development):package.json",
-                "tags": [],
-                "branch": "development",
-                "type": "npm",
-                "status": "active",
-                "org_id": "da450e98-1581-4cd1-a4fc-06a3b76f5004",
-                "org_slug": "cse-ownership",
-                "origin": "github-enterprise",
-                "target": "e7a8c0dd-8ade-4e8b-89ee-fc70cf11aa7d",
-                "target_path": "package.json",
-                "repo_name": "snyk-playground/repo-with-jira-config",
-                "repo_id": null
-            }
-        ],
+        "projects": [],
         "tags": [
             {
                 "key": "application",
@@ -139,36 +108,6 @@
         "import_sha": "",
         "full_name": "snyk-playground/snyk-sync",
         "projects": [
-            {
-                "id": "be23959e-cb09-4699-b196-d9729fe8e2d9",
-                "name": "snyk-playground/snyk-sync(main):requirements.txt",
-                "tags": [],
-                "branch": "main",
-                "type": "pip",
-                "status": "active",
-                "org_id": "da450e98-1581-4cd1-a4fc-06a3b76f5004",
-                "org_slug": "cse-ownership",
-                "origin": "github-enterprise",
-                "target": "b4425ac8-4997-4ada-87f1-9e269b8556e4",
-                "target_path": "requirements.txt",
-                "repo_name": "snyk-playground/snyk-sync",
-                "repo_id": null
-            },
-            {
-                "id": "e57ca457-5b4f-4eea-a3da-b3b34fbc6abf",
-                "name": "snyk-playground/snyk-sync(main)",
-                "tags": [],
-                "branch": "main",
-                "type": "sast",
-                "status": "active",
-                "org_id": "da450e98-1581-4cd1-a4fc-06a3b76f5004",
-                "org_slug": "cse-ownership",
-                "origin": "github-enterprise",
-                "target": "b4425ac8-4997-4ada-87f1-9e269b8556e4",
-                "target_path": "",
-                "repo_name": "snyk-playground/snyk-sync",
-                "repo_id": null
-            },
             {
                 "id": "0b895455-c17a-44e9-8815-6f1036304121",
                 "name": "snyk-playground/snyk-sync(main):requirements.txt",
@@ -211,38 +150,7 @@
         "updated_at": "2021-11-24 16:09:52",
         "import_sha": "61557a798e8887420d3c0cc08b20755b62815c35",
         "full_name": "snyk-playground/org-import-instance",
-        "projects": [
-            {
-                "id": "8eeb4c36-84c6-4a12-b449-b71de4e78b22",
-                "name": "snyk-playground/org-import-instance(development):nested/package.json",
-                "tags": [],
-                "branch": "development",
-                "type": "npm",
-                "status": "active",
-                "org_id": "da450e98-1581-4cd1-a4fc-06a3b76f5004",
-                "org_slug": "cse-ownership",
-                "origin": "github-enterprise",
-                "target": "f6e6f1d3-c6ce-47cb-afc2-95e1cff5ff14",
-                "target_path": "nested/package.json",
-                "repo_name": "snyk-playground/org-import-instance",
-                "repo_id": null
-            },
-            {
-                "id": "7c4280c4-3c99-4fbd-8b54-0f6714c5672e",
-                "name": "snyk-playground/org-import-instance(development):package.json",
-                "tags": [],
-                "branch": "development",
-                "type": "npm",
-                "status": "active",
-                "org_id": "da450e98-1581-4cd1-a4fc-06a3b76f5004",
-                "org_slug": "cse-ownership",
-                "origin": "github-enterprise",
-                "target": "f6e6f1d3-c6ce-47cb-afc2-95e1cff5ff14",
-                "target_path": "package.json",
-                "repo_name": "snyk-playground/org-import-instance",
-                "repo_id": null
-            }
-        ],
+        "projects": [],
         "tags": [
             {
                 "key": "application",
@@ -278,102 +186,6 @@
         "import_sha": "123efefafbf345f0448a2c3d09d287183bacbe79",
         "full_name": "snyk-playground/org-import-branch-override",
         "projects": [
-            {
-                "id": "2b1bc201-4cc6-4eae-b8a9-10ab55421660",
-                "name": "snyk-playground/org-import-branch-override(development):package.json",
-                "tags": [
-                    {
-                        "key": "team",
-                        "value": "cse"
-                    },
-                    {
-                        "key": "application",
-                        "value": "example"
-                    }
-                ],
-                "branch": "development",
-                "type": "npm",
-                "status": "active",
-                "org_id": "da450e98-1581-4cd1-a4fc-06a3b76f5004",
-                "org_slug": "cse-ownership",
-                "origin": "github-enterprise",
-                "target": "8e833f2f-aff5-4995-9cba-5d46ff682e32",
-                "target_path": "package.json",
-                "repo_name": "snyk-playground/org-import-branch-override",
-                "repo_id": null
-            },
-            {
-                "id": "461d927d-ac4d-4775-812c-cf5af44ae20e",
-                "name": "snyk-playground/org-import-branch-override(development):nested/package.json",
-                "tags": [
-                    {
-                        "key": "team",
-                        "value": "cse"
-                    },
-                    {
-                        "key": "application",
-                        "value": "example"
-                    }
-                ],
-                "branch": "development",
-                "type": "npm",
-                "status": "active",
-                "org_id": "da450e98-1581-4cd1-a4fc-06a3b76f5004",
-                "org_slug": "cse-ownership",
-                "origin": "github-enterprise",
-                "target": "8e833f2f-aff5-4995-9cba-5d46ff682e32",
-                "target_path": "nested/package.json",
-                "repo_name": "snyk-playground/org-import-branch-override",
-                "repo_id": null
-            },
-            {
-                "id": "fb4ae686-a522-492f-9b45-357ce206cdfe",
-                "name": "snyk-playground/org-import-branch-override(main):nested/package.json",
-                "tags": [
-                    {
-                        "key": "team",
-                        "value": "cse"
-                    },
-                    {
-                        "key": "application",
-                        "value": "example"
-                    }
-                ],
-                "branch": "main",
-                "type": "npm",
-                "status": "active",
-                "org_id": "da450e98-1581-4cd1-a4fc-06a3b76f5004",
-                "org_slug": "cse-ownership",
-                "origin": "github-enterprise",
-                "target": "8e833f2f-aff5-4995-9cba-5d46ff682e32",
-                "target_path": "nested/package.json",
-                "repo_name": "snyk-playground/org-import-branch-override",
-                "repo_id": null
-            },
-            {
-                "id": "6d949ef1-e22e-499a-8a54-cf6cc55b73d9",
-                "name": "snyk-playground/org-import-branch-override(main):package.json",
-                "tags": [
-                    {
-                        "key": "team",
-                        "value": "cse"
-                    },
-                    {
-                        "key": "application",
-                        "value": "example"
-                    }
-                ],
-                "branch": "main",
-                "type": "npm",
-                "status": "active",
-                "org_id": "da450e98-1581-4cd1-a4fc-06a3b76f5004",
-                "org_slug": "cse-ownership",
-                "origin": "github-enterprise",
-                "target": "8e833f2f-aff5-4995-9cba-5d46ff682e32",
-                "target_path": "package.json",
-                "repo_name": "snyk-playground/org-import-branch-override",
-                "repo_id": null
-            },
             {
                 "id": "e4db5c4a-3c48-4cba-add3-b9cfe2b193f4",
                 "name": "snyk-playground/org-import-branch-override(release):package.json",
@@ -446,51 +258,6 @@
         "import_sha": "",
         "full_name": "snyk-playground/multi-project-code",
         "projects": [
-            {
-                "id": "1d852fda-e6ef-453e-8197-a7d75c12bdf6",
-                "name": "snyk-playground/multi-project-code(main):frontend/snyk_sync/requirements.txt",
-                "tags": [],
-                "branch": "main",
-                "type": "pip",
-                "status": "active",
-                "org_id": "da450e98-1581-4cd1-a4fc-06a3b76f5004",
-                "org_slug": "cse-ownership",
-                "origin": "github-enterprise",
-                "target": "5f29aeaf-709f-48d8-8836-d48f7f5bce2f",
-                "target_path": "frontend/snyk_sync/requirements.txt",
-                "repo_name": "snyk-playground/multi-project-code",
-                "repo_id": null
-            },
-            {
-                "id": "12fe0ccc-4796-40ab-8bd0-5b33cc614d67",
-                "name": "snyk-playground/multi-project-code(main):requirements.txt",
-                "tags": [],
-                "branch": "main",
-                "type": "pip",
-                "status": "active",
-                "org_id": "da450e98-1581-4cd1-a4fc-06a3b76f5004",
-                "org_slug": "cse-ownership",
-                "origin": "github-enterprise",
-                "target": "5f29aeaf-709f-48d8-8836-d48f7f5bce2f",
-                "target_path": "requirements.txt",
-                "repo_name": "snyk-playground/multi-project-code",
-                "repo_id": null
-            },
-            {
-                "id": "3582131e-8b03-4da5-a150-cbea5ae209da",
-                "name": "snyk-playground/multi-project-code(main)",
-                "tags": [],
-                "branch": "main",
-                "type": "sast",
-                "status": "active",
-                "org_id": "da450e98-1581-4cd1-a4fc-06a3b76f5004",
-                "org_slug": "cse-ownership",
-                "origin": "github-enterprise",
-                "target": "5f29aeaf-709f-48d8-8836-d48f7f5bce2f",
-                "target_path": "",
-                "repo_name": "snyk-playground/multi-project-code",
-                "repo_id": null
-            },
             {
                 "id": "ea16843e-bb7f-49b0-bc13-bf918fa42471",
                 "name": "snyk-playground/multi-project-code(main):requirements.txt",
@@ -775,104 +542,7 @@
         "updated_at": "2021-10-15 13:59:47",
         "import_sha": "1da68bcf4b50d550d78aaa093bba91a989701fd8",
         "full_name": "snyk-playground/org-project-import",
-        "projects": [
-            {
-                "id": "4e101bc1-149c-4e72-af51-d7a0dc4c6496",
-                "name": "snyk-playground/org-project-import(main):nested/package.json",
-                "tags": [
-                    {
-                        "key": "team",
-                        "value": "cse"
-                    },
-                    {
-                        "key": "application",
-                        "value": "example"
-                    }
-                ],
-                "branch": "main",
-                "type": "npm",
-                "status": "active",
-                "org_id": "da450e98-1581-4cd1-a4fc-06a3b76f5004",
-                "org_slug": "cse-ownership",
-                "origin": "github-enterprise",
-                "target": "576fbfb6-dbe7-41fd-8d2e-d1be6df6bb9c",
-                "target_path": "nested/package.json",
-                "repo_name": "snyk-playground/org-project-import",
-                "repo_id": null
-            },
-            {
-                "id": "77eca688-e824-41fd-931c-ac2e205699a3",
-                "name": "snyk-playground/org-project-import(main):package.json",
-                "tags": [
-                    {
-                        "key": "team",
-                        "value": "cse"
-                    },
-                    {
-                        "key": "application",
-                        "value": "example"
-                    }
-                ],
-                "branch": "main",
-                "type": "npm",
-                "status": "active",
-                "org_id": "da450e98-1581-4cd1-a4fc-06a3b76f5004",
-                "org_slug": "cse-ownership",
-                "origin": "github-enterprise",
-                "target": "576fbfb6-dbe7-41fd-8d2e-d1be6df6bb9c",
-                "target_path": "package.json",
-                "repo_name": "snyk-playground/org-project-import",
-                "repo_id": null
-            },
-            {
-                "id": "b369f6ed-a3ec-4bfd-a50a-778d13eb7519",
-                "name": "snyk-playground/org-project-import(development):nested/package.json",
-                "tags": [
-                    {
-                        "key": "team",
-                        "value": "cse"
-                    },
-                    {
-                        "key": "application",
-                        "value": "example"
-                    }
-                ],
-                "branch": "development",
-                "type": "npm",
-                "status": "active",
-                "org_id": "da450e98-1581-4cd1-a4fc-06a3b76f5004",
-                "org_slug": "cse-ownership",
-                "origin": "github-enterprise",
-                "target": "576fbfb6-dbe7-41fd-8d2e-d1be6df6bb9c",
-                "target_path": "nested/package.json",
-                "repo_name": "snyk-playground/org-project-import",
-                "repo_id": null
-            },
-            {
-                "id": "1069a9b2-2611-4e0b-a6b4-65d733ba3c68",
-                "name": "snyk-playground/org-project-import(development):package.json",
-                "tags": [
-                    {
-                        "key": "team",
-                        "value": "cse"
-                    },
-                    {
-                        "key": "application",
-                        "value": "example"
-                    }
-                ],
-                "branch": "development",
-                "type": "npm",
-                "status": "active",
-                "org_id": "da450e98-1581-4cd1-a4fc-06a3b76f5004",
-                "org_slug": "cse-ownership",
-                "origin": "github-enterprise",
-                "target": "576fbfb6-dbe7-41fd-8d2e-d1be6df6bb9c",
-                "target_path": "package.json",
-                "repo_name": "snyk-playground/org-project-import",
-                "repo_id": null
-            }
-        ],
+        "projects": [],
         "tags": [
             {
                 "key": "application",
@@ -905,28 +575,7 @@
         "updated_at": "2021-08-25 13:37:43",
         "import_sha": "765979097f86c12bbc7bf7d8d178c97d7af6d296",
         "full_name": "snyk-playground/docker-goof",
-        "projects": [
-            {
-                "id": "62272c65-e13d-4318-ab68-f9f341ec4d45",
-                "name": "snyk-playground/docker-goof(master):package.json",
-                "tags": [
-                    {
-                        "key": "application",
-                        "value": "example"
-                    }
-                ],
-                "branch": "master",
-                "type": "npm",
-                "status": "active",
-                "org_id": "da450e98-1581-4cd1-a4fc-06a3b76f5004",
-                "org_slug": "cse-ownership",
-                "origin": "github-enterprise",
-                "target": "08b458a3-88b5-4ef2-8355-697e4dfac7f9",
-                "target_path": "package.json",
-                "repo_name": "snyk-playground/docker-goof",
-                "repo_id": null
-            }
-        ],
+        "projects": [],
         "tags": [
             {
                 "key": "application",
