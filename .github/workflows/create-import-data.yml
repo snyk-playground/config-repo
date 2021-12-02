@@ -22,4 +22,4 @@ jobs:
           commit-message: Updated list of Repositories to Import
           title: Updated Repo List
           body: New repositories to be imported
-          branch: update-import-targets
+          branch: update-import-targets-${{ env.GITHUB_JOB }}

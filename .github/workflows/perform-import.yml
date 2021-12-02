@@ -32,4 +32,4 @@ jobs:
           commit-message: API Import Logs and Tag Updates
           title: API Import Results
           body: Repositories and logs of last import
-          branch: update-api-new-projects
+          branch: update-api-new-projects-${{ env.GITHUB_JOB }}
