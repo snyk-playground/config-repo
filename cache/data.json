@@ -10,7 +10,7 @@
             "project_base": "snyk-playground/config-repo"
         },
         "id": 371078105,
-        "updated_at": "2021-12-02 16:13:14",
+        "updated_at": "2021-12-02 16:15:01",
         "import_sha": "",
         "full_name": "snyk-playground/config-repo",
         "projects": [],
@@ -36,7 +36,23 @@
         "updated_at": "2021-12-02 15:07:49",
         "import_sha": "",
         "full_name": "snyk-playground/custom-snyk-action",
-        "projects": [],
+        "projects": [
+            {
+                "id": "f514696b-bf57-4cd7-8693-e7a89fb1076d",
+                "name": "snyk-playground/custom-snyk-action(main):package.json",
+                "tags": [],
+                "branch": "main",
+                "type": "npm",
+                "status": "active",
+                "org_id": "39ddc762-b1b9-41ce-ab42-defbe4575bd6",
+                "org_slug": "ie-playground",
+                "origin": "github-enterprise",
+                "target": "4d0a3488-a632-4d9d-87f1-724a8ce6a96d",
+                "target_path": "package.json",
+                "repo_name": "snyk-playground/custom-snyk-action",
+                "repo_id": null
+            }
+        ],
         "tags": [],
         "org": "default",
         "branches": [
@@ -59,7 +75,38 @@
         "updated_at": "2021-11-29 21:29:13",
         "import_sha": "61557a798e8887420d3c0cc08b20755b62815c35",
         "full_name": "snyk-playground/repo-with-jira-config",
-        "projects": [],
+        "projects": [
+            {
+                "id": "eaba1166-c4df-4609-8639-556ba41ee9c4",
+                "name": "snyk-playground/repo-with-jira-config(development):nested/package.json",
+                "tags": [],
+                "branch": "development",
+                "type": "npm",
+                "status": "active",
+                "org_id": "da450e98-1581-4cd1-a4fc-06a3b76f5004",
+                "org_slug": "cse-ownership",
+                "origin": "github-enterprise",
+                "target": "e7a8c0dd-8ade-4e8b-89ee-fc70cf11aa7d",
+                "target_path": "nested/package.json",
+                "repo_name": "snyk-playground/repo-with-jira-config",
+                "repo_id": null
+            },
+            {
+                "id": "b1078656-cc56-4627-acc2-70ba4a75c187",
+                "name": "snyk-playground/repo-with-jira-config(development):package.json",
+                "tags": [],
+                "branch": "development",
+                "type": "npm",
+                "status": "active",
+                "org_id": "da450e98-1581-4cd1-a4fc-06a3b76f5004",
+                "org_slug": "cse-ownership",
+                "origin": "github-enterprise",
+                "target": "e7a8c0dd-8ade-4e8b-89ee-fc70cf11aa7d",
+                "target_path": "package.json",
+                "repo_name": "snyk-playground/repo-with-jira-config",
+                "repo_id": null
+            }
+        ],
         "tags": [
             {
                 "key": "application",
@@ -164,7 +211,38 @@
         "updated_at": "2021-11-24 16:09:52",
         "import_sha": "61557a798e8887420d3c0cc08b20755b62815c35",
         "full_name": "snyk-playground/org-import-instance",
-        "projects": [],
+        "projects": [
+            {
+                "id": "8eeb4c36-84c6-4a12-b449-b71de4e78b22",
+                "name": "snyk-playground/org-import-instance(development):nested/package.json",
+                "tags": [],
+                "branch": "development",
+                "type": "npm",
+                "status": "active",
+                "org_id": "da450e98-1581-4cd1-a4fc-06a3b76f5004",
+                "org_slug": "cse-ownership",
+                "origin": "github-enterprise",
+                "target": "f6e6f1d3-c6ce-47cb-afc2-95e1cff5ff14",
+                "target_path": "nested/package.json",
+                "repo_name": "snyk-playground/org-import-instance",
+                "repo_id": null
+            },
+            {
+                "id": "7c4280c4-3c99-4fbd-8b54-0f6714c5672e",
+                "name": "snyk-playground/org-import-instance(development):package.json",
+                "tags": [],
+                "branch": "development",
+                "type": "npm",
+                "status": "active",
+                "org_id": "da450e98-1581-4cd1-a4fc-06a3b76f5004",
+                "org_slug": "cse-ownership",
+                "origin": "github-enterprise",
+                "target": "f6e6f1d3-c6ce-47cb-afc2-95e1cff5ff14",
+                "target_path": "package.json",
+                "repo_name": "snyk-playground/org-import-instance",
+                "repo_id": null
+            }
+        ],
         "tags": [
             {
                 "key": "application",
@@ -409,6 +487,51 @@
                 "org_slug": "cse-ownership",
                 "origin": "github-enterprise",
                 "target": "5f29aeaf-709f-48d8-8836-d48f7f5bce2f",
+                "target_path": "",
+                "repo_name": "snyk-playground/multi-project-code",
+                "repo_id": null
+            },
+            {
+                "id": "ea16843e-bb7f-49b0-bc13-bf918fa42471",
+                "name": "snyk-playground/multi-project-code(main):requirements.txt",
+                "tags": [],
+                "branch": "main",
+                "type": "pip",
+                "status": "active",
+                "org_id": "39ddc762-b1b9-41ce-ab42-defbe4575bd6",
+                "org_slug": "ie-playground",
+                "origin": "github-enterprise",
+                "target": "2d6ce79e-2ef4-444a-ab42-7abba3aaeed2",
+                "target_path": "requirements.txt",
+                "repo_name": "snyk-playground/multi-project-code",
+                "repo_id": null
+            },
+            {
+                "id": "bf678992-2520-4092-b662-026b8540fba4",
+                "name": "snyk-playground/multi-project-code(main):frontend/snyk_sync/requirements.txt",
+                "tags": [],
+                "branch": "main",
+                "type": "pip",
+                "status": "active",
+                "org_id": "39ddc762-b1b9-41ce-ab42-defbe4575bd6",
+                "org_slug": "ie-playground",
+                "origin": "github-enterprise",
+                "target": "2d6ce79e-2ef4-444a-ab42-7abba3aaeed2",
+                "target_path": "frontend/snyk_sync/requirements.txt",
+                "repo_name": "snyk-playground/multi-project-code",
+                "repo_id": null
+            },
+            {
+                "id": "a562130f-44fd-4327-8c5b-c99ea319ebeb",
+                "name": "snyk-playground/multi-project-code(main)",
+                "tags": [],
+                "branch": "main",
+                "type": "sast",
+                "status": "active",
+                "org_id": "39ddc762-b1b9-41ce-ab42-defbe4575bd6",
+                "org_slug": "ie-playground",
+                "origin": "github-enterprise",
+                "target": "2d6ce79e-2ef4-444a-ab42-7abba3aaeed2",
                 "target_path": "",
                 "repo_name": "snyk-playground/multi-project-code",
                 "repo_id": null
