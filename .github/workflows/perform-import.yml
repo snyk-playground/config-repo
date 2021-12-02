@@ -9,6 +9,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+      - name: Clear last import logs
+        run: rm -rf cache/logs/*
+        uses: bash
       - name: Run snyk-api-import to import new repositories
         uses: ./.github/actions/snyk-api-import
         with:
