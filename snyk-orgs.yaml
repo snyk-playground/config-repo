@@ -6,18 +6,31 @@ broker-org01:
     github-enterprise: ca599bec-0b7d-452d-8d6f-877db5292e27
     gitlab: 9cf3643b-9eb9-4420-8339-e94f19ad6115
   orgId: 3a1260d4-2eba-4f6b-b63f-7b8236218ca6
-cse-ownership:
-  integrations:
-    cli: 000cda47-dda7-4701-8884-9806a72d27a2
-    github: f593a4eb-082b-4eb1-ab72-fe44cf7da21c
-    github-enterprise: 20859d9c-fc25-4c26-9925-2e9356aad608
-  orgId: da450e98-1581-4cd1-a4fc-06a3b76f5004
 ie-playground:
   integrations:
     cli: 361d74f8-009c-47b7-8408-da957d11ca3a
     github: 5881e5b0-308f-4a1b-9bcb-38e3491872e0
     github-enterprise: b87e1473-37ab-4f09-a4e3-a0139a50e81e
   orgId: 39ddc762-b1b9-41ce-ab42-defbe4575bd6
+kev-test-willdelete:
+  integrations:
+    bitbucket-cloud: a0c2c0ee-b757-402d-b844-6b1ef8ca574e
+    github: 18008f40-2bad-4446-a364-808d483c50e4
+    github-enterprise: 4d16f779-18cf-4e97-81e5-7edb69ae47a4
+    gitlab: 006d33a4-586a-4d36-a597-c98686d37e4a
+  orgId: 783d054c-84f4-4ed0-9639-f9fa5e964685
+monorepo-1:
+  integrations:
+    cli: bb1ddf6f-388e-49d9-b5d5-48af22b79d28
+    github: 920a5e4a-8a14-489c-8761-473fcad0e72c
+    github-enterprise: aa616539-972d-480e-9e33-2d995b475423
+  orgId: d20bf3bb-2a7e-487e-9558-ee8a6bbc347a
+monorepo-2-yuw:
+  integrations:
+    cli: c62a8f4d-1b09-49d3-957a-9cf7abe91b2f
+    github: a198339a-9836-4661-b722-ed2002387d26
+    github-enterprise: 19941985-dbb7-400e-b555-6aeedde97598
+  orgId: fa26109a-d17b-4c8d-a7f4-9befba5a5d48
 snyk-api-import-demo:
   integrations:
     artifactory-cr: 825c27a6-2524-4358-80a0-b1ebafbfe5fe
@@ -25,3 +38,8 @@ snyk-api-import-demo:
     github: b8e7e0cd-4a81-49f1-95c1-6ccfbc8818ee
     github-enterprise: 2c134740-0887-4177-a7d5-3b2331fbab18
   orgId: 4860d7a6-ca71-438b-8e2e-e8764a7cb713
+snyk-jira-with-config_test-37d:
+  integrations:
+    github: 710aa075-6c0d-4e22-adc6-35ab10915299
+    github-enterprise: dc3aeb80-0319-4357-8633-22068a451b96
+  orgId: f2ad0015-6c36-48f1-91f7-1ece0cb3912b

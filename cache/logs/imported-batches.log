@@ -1,2 +1,0 @@
-{"name":"snyk:import-projects-script","hostname":"708d54675434","pid":7,"level":30,"message":"Importing batch 1 - 1 out of 5 ","msg":"Kicked off import","time":"2021-10-14T20:29:18.155Z","v":0}
-{"name":"snyk:import-projects-script","hostname":"0d0effee2733","pid":8,"level":30,"message":"Importing batch 6 - 6 out of 9 (skipped 5)","msg":"Kicked off import","time":"2021-12-02T16:15:37.912Z","v":0}

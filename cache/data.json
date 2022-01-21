@@ -10,7 +10,7 @@
             "project_base": "snyk-playground/config-repo"
         },
         "id": 371078105,
-        "updated_at": "2021-12-02 16:15:01",
+        "updated_at": "2021-12-03 11:52:27",
         "import_sha": "",
         "full_name": "snyk-playground/config-repo",
         "projects": [],
@@ -20,7 +20,11 @@
             "main"
         ],
         "fork": false,
-        "topics": []
+        "topics": [
+            "snyk-things"
+        ],
+        "archived": false,
+        "visibility": "public"
     },
     {
         "url": "https://github.com/snyk-playground/custom-snyk-action",
@@ -59,7 +63,9 @@
             "main"
         ],
         "fork": false,
-        "topics": []
+        "topics": [],
+        "archived": false,
+        "visibility": "public"
     },
     {
         "url": "https://github.com/snyk-playground/repo-with-jira-config",
@@ -72,36 +78,36 @@
             "project_base": "snyk-playground/repo-with-jira-config"
         },
         "id": 433201210,
-        "updated_at": "2021-11-29 21:29:13",
+        "updated_at": "2021-12-15 05:19:29",
         "import_sha": "61557a798e8887420d3c0cc08b20755b62815c35",
         "full_name": "snyk-playground/repo-with-jira-config",
         "projects": [
             {
-                "id": "eaba1166-c4df-4609-8639-556ba41ee9c4",
-                "name": "snyk-playground/repo-with-jira-config(development):nested/package.json",
+                "id": "905ef650-4852-4db2-b34f-9a9a2762b450",
+                "name": "snyk-playground/repo-with-jira-config(main):nested/package.json",
                 "tags": [],
-                "branch": "development",
+                "branch": "main",
                 "type": "npm",
                 "status": "active",
-                "org_id": "da450e98-1581-4cd1-a4fc-06a3b76f5004",
-                "org_slug": "cse-ownership",
+                "org_id": "39ddc762-b1b9-41ce-ab42-defbe4575bd6",
+                "org_slug": "ie-playground",
                 "origin": "github-enterprise",
-                "target": "e7a8c0dd-8ade-4e8b-89ee-fc70cf11aa7d",
+                "target": "08beb7e6-ccdf-437a-95dd-9f3c8ad66cd8",
                 "target_path": "nested/package.json",
                 "repo_name": "snyk-playground/repo-with-jira-config",
                 "repo_id": null
             },
             {
-                "id": "b1078656-cc56-4627-acc2-70ba4a75c187",
-                "name": "snyk-playground/repo-with-jira-config(development):package.json",
+                "id": "590dd511-a976-4268-b275-309a418d2a2f",
+                "name": "snyk-playground/repo-with-jira-config(main):package.json",
                 "tags": [],
-                "branch": "development",
+                "branch": "main",
                 "type": "npm",
                 "status": "active",
-                "org_id": "da450e98-1581-4cd1-a4fc-06a3b76f5004",
-                "org_slug": "cse-ownership",
+                "org_id": "39ddc762-b1b9-41ce-ab42-defbe4575bd6",
+                "org_slug": "ie-playground",
                 "origin": "github-enterprise",
-                "target": "e7a8c0dd-8ade-4e8b-89ee-fc70cf11aa7d",
+                "target": "08beb7e6-ccdf-437a-95dd-9f3c8ad66cd8",
                 "target_path": "package.json",
                 "repo_name": "snyk-playground/repo-with-jira-config",
                 "repo_id": null
@@ -119,10 +125,12 @@
         ],
         "org": "cse-ownership",
         "branches": [
-            "development"
+            "main"
         ],
         "fork": false,
-        "topics": []
+        "topics": [],
+        "archived": false,
+        "visibility": "public"
     },
     {
         "url": "https://github.com/snyk-playground/snyk-sync",
@@ -135,7 +143,7 @@
             "project_base": "snyk-playground/snyk-sync"
         },
         "id": 404825165,
-        "updated_at": "2021-11-29 12:13:11",
+        "updated_at": "2022-01-14 14:57:54",
         "import_sha": "",
         "full_name": "snyk-playground/snyk-sync",
         "projects": [
@@ -192,10 +200,12 @@
         ],
         "fork": false,
         "topics": [
-            "snyk",
             "org-ie-playground",
+            "snyk",
             "team-cse"
-        ]
+        ],
+        "archived": false,
+        "visibility": "public"
     },
     {
         "url": "https://github.com/snyk-playground/org-import-instance",
@@ -208,36 +218,36 @@
             "project_base": "snyk-playground/org-import-instance"
         },
         "id": 430752186,
-        "updated_at": "2021-11-24 16:09:52",
+        "updated_at": "2021-12-03 11:37:28",
         "import_sha": "61557a798e8887420d3c0cc08b20755b62815c35",
         "full_name": "snyk-playground/org-import-instance",
         "projects": [
             {
-                "id": "8eeb4c36-84c6-4a12-b449-b71de4e78b22",
-                "name": "snyk-playground/org-import-instance(development):nested/package.json",
+                "id": "7e7342bc-a958-41af-8410-9cd642e2258b",
+                "name": "snyk-playground/org-import-instance(main):nested/package.json",
                 "tags": [],
-                "branch": "development",
+                "branch": "main",
                 "type": "npm",
                 "status": "active",
-                "org_id": "da450e98-1581-4cd1-a4fc-06a3b76f5004",
-                "org_slug": "cse-ownership",
+                "org_id": "39ddc762-b1b9-41ce-ab42-defbe4575bd6",
+                "org_slug": "ie-playground",
                 "origin": "github-enterprise",
-                "target": "f6e6f1d3-c6ce-47cb-afc2-95e1cff5ff14",
+                "target": "9a181724-d17d-4a92-a85c-72594c0df5e1",
                 "target_path": "nested/package.json",
                 "repo_name": "snyk-playground/org-import-instance",
                 "repo_id": null
             },
             {
-                "id": "7c4280c4-3c99-4fbd-8b54-0f6714c5672e",
-                "name": "snyk-playground/org-import-instance(development):package.json",
+                "id": "33a80d42-a445-4305-91ea-100575ed05ad",
+                "name": "snyk-playground/org-import-instance(main):package.json",
                 "tags": [],
-                "branch": "development",
+                "branch": "main",
                 "type": "npm",
                 "status": "active",
-                "org_id": "da450e98-1581-4cd1-a4fc-06a3b76f5004",
-                "org_slug": "cse-ownership",
+                "org_id": "39ddc762-b1b9-41ce-ab42-defbe4575bd6",
+                "org_slug": "ie-playground",
                 "origin": "github-enterprise",
-                "target": "f6e6f1d3-c6ce-47cb-afc2-95e1cff5ff14",
+                "target": "9a181724-d17d-4a92-a85c-72594c0df5e1",
                 "target_path": "package.json",
                 "repo_name": "snyk-playground/org-import-instance",
                 "repo_id": null
@@ -255,13 +265,15 @@
         ],
         "org": "cse-ownership",
         "branches": [
-            "development"
+            "main"
         ],
         "fork": false,
         "topics": [
-            "testing",
-            "things"
-        ]
+            "snyk-testing",
+            "snyk-things"
+        ],
+        "archived": false,
+        "visibility": "public"
     },
     {
         "url": "https://github.com/snyk-playground/org-import-branch-override",
@@ -274,7 +286,7 @@
             "project_base": "snyk-playground/org-import-branch-override"
         },
         "id": 431417685,
-        "updated_at": "2021-11-24 11:57:31",
+        "updated_at": "2021-12-03 11:37:52",
         "import_sha": "123efefafbf345f0448a2c3d09d287183bacbe79",
         "full_name": "snyk-playground/org-import-branch-override",
         "projects": [
@@ -403,6 +415,36 @@
                 "target_path": "nested/package.json",
                 "repo_name": "snyk-playground/org-import-branch-override",
                 "repo_id": null
+            },
+            {
+                "id": "58550b3c-9ca6-4b5c-9c97-cb60ce94aaea",
+                "name": "snyk-playground/org-import-branch-override(main):nested/package.json",
+                "tags": [],
+                "branch": "main",
+                "type": "npm",
+                "status": "active",
+                "org_id": "39ddc762-b1b9-41ce-ab42-defbe4575bd6",
+                "org_slug": "ie-playground",
+                "origin": "github-enterprise",
+                "target": "dc2aa733-550d-43dd-9066-e9a35b6f3982",
+                "target_path": "nested/package.json",
+                "repo_name": "snyk-playground/org-import-branch-override",
+                "repo_id": null
+            },
+            {
+                "id": "db4c457a-4d1d-420d-a57d-8b2052961990",
+                "name": "snyk-playground/org-import-branch-override(main):package.json",
+                "tags": [],
+                "branch": "main",
+                "type": "npm",
+                "status": "active",
+                "org_id": "39ddc762-b1b9-41ce-ab42-defbe4575bd6",
+                "org_slug": "ie-playground",
+                "origin": "github-enterprise",
+                "target": "dc2aa733-550d-43dd-9066-e9a35b6f3982",
+                "target_path": "package.json",
+                "repo_name": "snyk-playground/org-import-branch-override",
+                "repo_id": null
             }
         ],
         "tags": [
@@ -417,19 +459,14 @@
         ],
         "org": "cse-ownership",
         "branches": [
-            "main",
-            "development",
-            {
-                "release": {
-                    "orgName": "snyk-api-import-demo",
-                    "tags": {
-                        "release": 1234
-                    }
-                }
-            }
+            "main"
         ],
         "fork": false,
-        "topics": []
+        "topics": [
+            "testing"
+        ],
+        "archived": false,
+        "visibility": "internal"
     },
     {
         "url": "https://github.com/snyk-playground/multi-project-code",
@@ -543,7 +580,9 @@
             "main"
         ],
         "fork": false,
-        "topics": []
+        "topics": [],
+        "archived": false,
+        "visibility": "public"
     },
     {
         "url": "https://github.com/snyk-playground/java-goof",
@@ -612,7 +651,9 @@
             "master"
         ],
         "fork": true,
-        "topics": []
+        "topics": [],
+        "archived": false,
+        "visibility": "public"
     },
     {
         "url": "https://github.com/snyk-playground/goof",
@@ -681,7 +722,9 @@
             "master"
         ],
         "fork": true,
-        "topics": []
+        "topics": [],
+        "archived": false,
+        "visibility": "public"
     },
     {
         "url": "https://github.com/snyk-playground/snyk-in-dockerfile-examples",
@@ -694,7 +737,7 @@
             "project_base": "snyk-playground/snyk-in-dockerfile-examples"
         },
         "id": 424813329,
-        "updated_at": "2021-11-08 03:36:01",
+        "updated_at": "2021-12-22 22:47:57",
         "import_sha": "",
         "full_name": "snyk-playground/snyk-in-dockerfile-examples",
         "projects": [
@@ -720,7 +763,9 @@
             "main"
         ],
         "fork": false,
-        "topics": []
+        "topics": [],
+        "archived": false,
+        "visibility": "public"
     },
     {
         "url": "https://github.com/snyk-playground/snyk-audit-to-csv",
@@ -759,7 +804,9 @@
             "main"
         ],
         "fork": false,
-        "topics": []
+        "topics": [],
+        "archived": false,
+        "visibility": "public"
     },
     {
         "url": "https://github.com/snyk-playground/org-project-import",
@@ -772,7 +819,7 @@
             "project_base": "snyk-playground/org-project-import"
         },
         "id": 377845766,
-        "updated_at": "2021-10-15 13:59:47",
+        "updated_at": "2021-12-03 11:36:54",
         "import_sha": "1da68bcf4b50d550d78aaa093bba91a989701fd8",
         "full_name": "snyk-playground/org-project-import",
         "projects": [
@@ -871,6 +918,36 @@
                 "target_path": "package.json",
                 "repo_name": "snyk-playground/org-project-import",
                 "repo_id": null
+            },
+            {
+                "id": "b48bf843-ab0c-4651-84e6-cfa3aa2ed2a1",
+                "name": "snyk-playground/org-project-import(main):nested/package.json",
+                "tags": [],
+                "branch": "main",
+                "type": "npm",
+                "status": "active",
+                "org_id": "39ddc762-b1b9-41ce-ab42-defbe4575bd6",
+                "org_slug": "ie-playground",
+                "origin": "github-enterprise",
+                "target": "bcb30f5f-ae18-4d32-ac62-1459b10050ae",
+                "target_path": "nested/package.json",
+                "repo_name": "snyk-playground/org-project-import",
+                "repo_id": null
+            },
+            {
+                "id": "b740c913-ce26-44ad-bc43-8e505b3ed085",
+                "name": "snyk-playground/org-project-import(main):package.json",
+                "tags": [],
+                "branch": "main",
+                "type": "npm",
+                "status": "active",
+                "org_id": "39ddc762-b1b9-41ce-ab42-defbe4575bd6",
+                "org_slug": "ie-playground",
+                "origin": "github-enterprise",
+                "target": "bcb30f5f-ae18-4d32-ac62-1459b10050ae",
+                "target_path": "package.json",
+                "repo_name": "snyk-playground/org-project-import",
+                "repo_id": null
             }
         ],
         "tags": [
@@ -885,11 +962,14 @@
         ],
         "org": "cse-ownership",
         "branches": [
-            "development",
             "main"
         ],
         "fork": false,
-        "topics": []
+        "topics": [
+            "snyk-testing"
+        ],
+        "archived": false,
+        "visibility": "public"
     },
     {
         "url": "https://github.com/snyk-playground/docker-goof",
@@ -925,6 +1005,21 @@
                 "target_path": "package.json",
                 "repo_name": "snyk-playground/docker-goof",
                 "repo_id": null
+            },
+            {
+                "id": "dbe31141-43a9-43c7-99aa-bc480eee8b97",
+                "name": "snyk-playground/docker-goof(master):package.json",
+                "tags": [],
+                "branch": "master",
+                "type": "npm",
+                "status": "active",
+                "org_id": "39ddc762-b1b9-41ce-ab42-defbe4575bd6",
+                "org_slug": "ie-playground",
+                "origin": "github-enterprise",
+                "target": "f6017bfd-e441-4482-b060-78e56daff65c",
+                "target_path": "package.json",
+                "repo_name": "snyk-playground/docker-goof",
+                "repo_id": null
             }
         ],
         "tags": [
@@ -938,7 +1033,9 @@
             "master"
         ],
         "fork": false,
-        "topics": []
+        "topics": [],
+        "archived": false,
+        "visibility": "public"
     },
     {
         "url": "https://github.com/snyk-playground/pygithub-import-parser",
@@ -954,14 +1051,32 @@
         "updated_at": "2021-08-25 12:27:07",
         "import_sha": "f5d8e786c306459f74d4053cff8ebe341f171d90",
         "full_name": "snyk-playground/pygithub-import-parser",
-        "projects": [],
+        "projects": [
+            {
+                "id": "295b5096-3530-49c5-8914-a98a35ae5dc1",
+                "name": "snyk-playground/pygithub-import-parser(main)",
+                "tags": [],
+                "branch": "main",
+                "type": "sast",
+                "status": "active",
+                "org_id": "39ddc762-b1b9-41ce-ab42-defbe4575bd6",
+                "org_slug": "ie-playground",
+                "origin": "github-enterprise",
+                "target": "9aafc91d-76c1-4279-aa27-6e648130f003",
+                "target_path": "",
+                "repo_name": "snyk-playground/pygithub-import-parser",
+                "repo_id": null
+            }
+        ],
         "tags": [],
         "org": "cse-ownership",
         "branches": [
             "main"
         ],
         "fork": false,
-        "topics": []
+        "topics": [],
+        "archived": false,
+        "visibility": "public"
     },
     {
         "url": "https://github.com/snyk-playground/demo_snyk-transitive-ignore",
@@ -984,7 +1099,9 @@
             "main"
         ],
         "fork": false,
-        "topics": []
+        "topics": [],
+        "archived": false,
+        "visibility": "public"
     },
     {
         "url": "https://github.com/snyk-playground/docs",
@@ -1007,7 +1124,9 @@
             "main"
         ],
         "fork": false,
-        "topics": []
+        "topics": [],
+        "archived": false,
+        "visibility": "public"
     },
     {
         "url": "https://github.com/snyk-playground/nightmare",
@@ -1271,7 +1390,9 @@
             "main"
         ],
         "fork": false,
-        "topics": []
+        "topics": [],
+        "archived": false,
+        "visibility": "public"
     },
     {
         "url": "https://github.com/snyk-playground/webhook-test-repository",
@@ -1294,7 +1415,9 @@
             "main"
         ],
         "fork": false,
-        "topics": []
+        "topics": [],
+        "archived": false,
+        "visibility": "public"
     },
     {
         "url": "https://github.com/snyk-playground/maven-multi-with-gh-prevent",
@@ -1363,7 +1486,9 @@
             "main"
         ],
         "fork": false,
-        "topics": []
+        "topics": [],
+        "archived": false,
+        "visibility": "public"
     },
     {
         "url": "https://github.com/snyk-playground/Dapper",
@@ -1702,7 +1827,9 @@
             "master"
         ],
         "fork": true,
-        "topics": []
+        "topics": [],
+        "archived": false,
+        "visibility": "public"
     },
     {
         "url": "https://github.com/snyk-playground/npm-check-updates",
@@ -1741,7 +1868,9 @@
             "master"
         ],
         "fork": true,
-        "topics": []
+        "topics": [],
+        "archived": false,
+        "visibility": "public"
     },
     {
         "url": "https://github.com/snyk-playground/snyk-container-scan-docker",
@@ -1780,7 +1909,9 @@
             "master"
         ],
         "fork": false,
-        "topics": []
+        "topics": [],
+        "archived": false,
+        "visibility": "public"
     },
     {
         "url": "https://github.com/snyk-playground/test_repo",
@@ -1819,7 +1950,9 @@
             "master"
         ],
         "fork": false,
-        "topics": []
+        "topics": [],
+        "archived": false,
+        "visibility": "public"
     },
     {
         "url": "https://github.com/snyk-playground/sampleRequirements3InProject",
@@ -1858,7 +1991,9 @@
             "master"
         ],
         "fork": false,
-        "topics": []
+        "topics": [],
+        "archived": false,
+        "visibility": "public"
     },
     {
         "url": "https://github.com/snyk-playground/codefresh-pipeline-snyk-app-docker-scan",
@@ -1897,7 +2032,9 @@
             "master"
         ],
         "fork": false,
-        "topics": []
+        "topics": [],
+        "archived": false,
+        "visibility": "public"
     },
     {
         "url": "https://github.com/snyk-playground/test-gradle",
@@ -1936,7 +2073,9 @@
             "master"
         ],
         "fork": false,
-        "topics": []
+        "topics": [],
+        "archived": false,
+        "visibility": "public"
     },
     {
         "url": "https://github.com/snyk-playground/license-validator",
@@ -1975,7 +2114,9 @@
             "master"
         ],
         "fork": false,
-        "topics": []
+        "topics": [],
+        "archived": false,
+        "visibility": "public"
     },
     {
         "url": "https://github.com/snyk-playground/training-app",
@@ -2014,7 +2155,9 @@
             "master"
         ],
         "fork": false,
-        "topics": []
+        "topics": [],
+        "archived": false,
+        "visibility": "public"
     },
     {
         "url": "https://github.com/snyk-playground/monorepo-simple",
@@ -2128,7 +2271,9 @@
             "master"
         ],
         "fork": true,
-        "topics": []
+        "topics": [],
+        "archived": false,
+        "visibility": "public"
     },
     {
         "url": "https://github.com/snyk-playground/medium-sev-project",
@@ -2167,7 +2312,9 @@
             "master"
         ],
         "fork": false,
-        "topics": []
+        "topics": [],
+        "archived": false,
+        "visibility": "public"
     },
     {
         "url": "https://github.com/snyk-playground/typescript",
@@ -2206,7 +2353,9 @@
             "master"
         ],
         "fork": true,
-        "topics": []
+        "topics": [],
+        "archived": false,
+        "visibility": "public"
     },
     {
         "url": "https://github.com/snyk-playground/canvas-lms",
@@ -2320,7 +2469,9 @@
             "stable"
         ],
         "fork": true,
-        "topics": []
+        "topics": [],
+        "archived": false,
+        "visibility": "public"
     },
     {
         "url": "https://github.com/snyk-playground/testrepo",
@@ -2359,7 +2510,9 @@
             "master"
         ],
         "fork": false,
-        "topics": []
+        "topics": [],
+        "archived": false,
+        "visibility": "public"
     },
     {
         "url": "https://github.com/snyk-playground/mqttclientdashboard-akamai-fastpurge-msod",
@@ -2398,6 +2551,74 @@
             "master"
         ],
         "fork": true,
-        "topics": []
+        "topics": [],
+        "archived": false,
+        "visibility": "public"
+    },
+    {
+        "url": "https://github.com/snyk-playground/monorepo-kotlin",
+        "source": {
+            "fork": false,
+            "name": "monorepo-kotlin",
+            "owner": "snyk-playground",
+            "branch": "main",
+            "url": "https://github.com/snyk-playground/monorepo-kotlin",
+            "project_base": "snyk-playground/monorepo-kotlin"
+        },
+        "id": 435362113,
+        "updated_at": "2021-12-16 19:48:51",
+        "import_sha": "",
+        "full_name": "snyk-playground/monorepo-kotlin",
+        "projects": [
+            {
+                "id": "11d8b029-c337-4845-ad89-d72e3107439f",
+                "name": "snyk-playground/monorepo-kotlin(main)",
+                "tags": [],
+                "branch": "main",
+                "type": "sast",
+                "status": "active",
+                "org_id": "39ddc762-b1b9-41ce-ab42-defbe4575bd6",
+                "org_slug": "ie-playground",
+                "origin": "github-enterprise",
+                "target": "84519645-6a5a-4b0f-9132-a65e76d3aa03",
+                "target_path": "",
+                "repo_name": "snyk-playground/monorepo-kotlin",
+                "repo_id": null
+            }
+        ],
+        "tags": [],
+        "org": "default",
+        "branches": [
+            "main"
+        ],
+        "fork": false,
+        "topics": [],
+        "archived": false,
+        "visibility": "internal"
+    },
+    {
+        "url": "https://github.com/snyk-playground/snyk-python-base",
+        "source": {
+            "fork": false,
+            "name": "snyk-python-base",
+            "owner": "snyk-playground",
+            "branch": "main",
+            "url": "https://github.com/snyk-playground/snyk-python-base",
+            "project_base": "snyk-playground/snyk-python-base"
+        },
+        "id": 437028143,
+        "updated_at": "2021-12-10 15:37:42",
+        "import_sha": "",
+        "full_name": "snyk-playground/snyk-python-base",
+        "projects": [],
+        "tags": [],
+        "org": "default",
+        "branches": [
+            "main"
+        ],
+        "fork": false,
+        "topics": [],
+        "archived": false,
+        "visibility": "internal"
     }
 ]

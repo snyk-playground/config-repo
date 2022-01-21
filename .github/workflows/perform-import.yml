@@ -14,10 +14,10 @@ jobs:
       - name: Run snyk-api-import to import new repositories
         uses: ./.github/actions/snyk-api-import
         with:
-          arguments: import --file /github/workspace/targets/customer-success-engineering.json
+          arguments: import --file /github/workspace/targets/${{ SNYK_GROUP_NAME }}.json
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-          SNYK_IMPORT_PATH: "targets/customer-success-engineering.json"
+          SNYK_GROUP_NAME: "customer-success-engineering"
           SNYK_LOG_PATH: "cache/logs"
       - name: Run snyk-sync to update tags
         uses: ./.github/actions/snyk-sync
