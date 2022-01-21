@@ -13,7 +13,7 @@
     {
       "target": {
         "fork": false,
-        "name": "custom-snyk-action",
+        "name": "repo-with-jira-config",
         "owner": "snyk-playground",
         "branch": "main"
       },
@@ -23,29 +23,39 @@
     {
       "target": {
         "fork": false,
-        "name": "repo-with-jira-config",
-        "owner": "snyk-playground",
-        "branch": "development"
-      },
-      "integrationId": "20859d9c-fc25-4c26-9925-2e9356aad608",
-      "orgId": "da450e98-1581-4cd1-a4fc-06a3b76f5004"
-    },
-    {
-      "target": {
-        "fork": false,
         "name": "org-import-instance",
         "owner": "snyk-playground",
-        "branch": "development"
+        "branch": "main"
       },
-      "integrationId": "20859d9c-fc25-4c26-9925-2e9356aad608",
-      "orgId": "da450e98-1581-4cd1-a4fc-06a3b76f5004"
+      "integrationId": "b87e1473-37ab-4f09-a4e3-a0139a50e81e",
+      "orgId": "39ddc762-b1b9-41ce-ab42-defbe4575bd6"
     },
     {
       "target": {
         "fork": false,
-        "name": "multi-project-code",
+        "name": "org-import-branch-override",
         "owner": "snyk-playground",
         "branch": "main"
+      },
+      "integrationId": "b87e1473-37ab-4f09-a4e3-a0139a50e81e",
+      "orgId": "39ddc762-b1b9-41ce-ab42-defbe4575bd6"
+    },
+    {
+      "target": {
+        "fork": false,
+        "name": "org-project-import",
+        "owner": "snyk-playground",
+        "branch": "main"
+      },
+      "integrationId": "b87e1473-37ab-4f09-a4e3-a0139a50e81e",
+      "orgId": "39ddc762-b1b9-41ce-ab42-defbe4575bd6"
+    },
+    {
+      "target": {
+        "fork": false,
+        "name": "docker-goof",
+        "owner": "snyk-playground",
+        "branch": "master"
       },
       "integrationId": "b87e1473-37ab-4f09-a4e3-a0139a50e81e",
       "orgId": "39ddc762-b1b9-41ce-ab42-defbe4575bd6"
@@ -57,8 +67,8 @@
         "owner": "snyk-playground",
         "branch": "main"
       },
-      "integrationId": "20859d9c-fc25-4c26-9925-2e9356aad608",
-      "orgId": "da450e98-1581-4cd1-a4fc-06a3b76f5004"
+      "integrationId": "b87e1473-37ab-4f09-a4e3-a0139a50e81e",
+      "orgId": "39ddc762-b1b9-41ce-ab42-defbe4575bd6"
     },
     {
       "target": {
@@ -84,6 +94,26 @@
       "target": {
         "fork": false,
         "name": "webhook-test-repository",
+        "owner": "snyk-playground",
+        "branch": "main"
+      },
+      "integrationId": "b87e1473-37ab-4f09-a4e3-a0139a50e81e",
+      "orgId": "39ddc762-b1b9-41ce-ab42-defbe4575bd6"
+    },
+    {
+      "target": {
+        "fork": false,
+        "name": "monorepo-kotlin",
+        "owner": "snyk-playground",
+        "branch": "main"
+      },
+      "integrationId": "b87e1473-37ab-4f09-a4e3-a0139a50e81e",
+      "orgId": "39ddc762-b1b9-41ce-ab42-defbe4575bd6"
+    },
+    {
+      "target": {
+        "fork": false,
+        "name": "snyk-python-base",
         "owner": "snyk-playground",
         "branch": "main"
       },
