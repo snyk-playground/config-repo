@@ -85,7 +85,16 @@
             {
                 "id": "905ef650-4852-4db2-b34f-9a9a2762b450",
                 "name": "snyk-playground/repo-with-jira-config(main):nested/package.json",
-                "tags": [],
+                "tags": [
+                    {
+                        "key": "team",
+                        "value": "cse"
+                    },
+                    {
+                        "key": "application",
+                        "value": "example"
+                    }
+                ],
                 "branch": "main",
                 "type": "npm",
                 "status": "active",
@@ -100,7 +109,16 @@
             {
                 "id": "590dd511-a976-4268-b275-309a418d2a2f",
                 "name": "snyk-playground/repo-with-jira-config(main):package.json",
-                "tags": [],
+                "tags": [
+                    {
+                        "key": "team",
+                        "value": "cse"
+                    },
+                    {
+                        "key": "application",
+                        "value": "example"
+                    }
+                ],
                 "branch": "main",
                 "type": "npm",
                 "status": "active",
@@ -225,7 +243,16 @@
             {
                 "id": "7e7342bc-a958-41af-8410-9cd642e2258b",
                 "name": "snyk-playground/org-import-instance(main):nested/package.json",
-                "tags": [],
+                "tags": [
+                    {
+                        "key": "team",
+                        "value": "cse"
+                    },
+                    {
+                        "key": "application",
+                        "value": "example"
+                    }
+                ],
                 "branch": "main",
                 "type": "npm",
                 "status": "active",
@@ -240,7 +267,16 @@
             {
                 "id": "33a80d42-a445-4305-91ea-100575ed05ad",
                 "name": "snyk-playground/org-import-instance(main):package.json",
-                "tags": [],
+                "tags": [
+                    {
+                        "key": "team",
+                        "value": "cse"
+                    },
+                    {
+                        "key": "application",
+                        "value": "example"
+                    }
+                ],
                 "branch": "main",
                 "type": "npm",
                 "status": "active",
@@ -419,7 +455,16 @@
             {
                 "id": "58550b3c-9ca6-4b5c-9c97-cb60ce94aaea",
                 "name": "snyk-playground/org-import-branch-override(main):nested/package.json",
-                "tags": [],
+                "tags": [
+                    {
+                        "key": "team",
+                        "value": "cse"
+                    },
+                    {
+                        "key": "application",
+                        "value": "example"
+                    }
+                ],
                 "branch": "main",
                 "type": "npm",
                 "status": "active",
@@ -434,7 +479,16 @@
             {
                 "id": "db4c457a-4d1d-420d-a57d-8b2052961990",
                 "name": "snyk-playground/org-import-branch-override(main):package.json",
-                "tags": [],
+                "tags": [
+                    {
+                        "key": "team",
+                        "value": "cse"
+                    },
+                    {
+                        "key": "application",
+                        "value": "example"
+                    }
+                ],
                 "branch": "main",
                 "type": "npm",
                 "status": "active",
@@ -922,7 +976,16 @@
             {
                 "id": "b48bf843-ab0c-4651-84e6-cfa3aa2ed2a1",
                 "name": "snyk-playground/org-project-import(main):nested/package.json",
-                "tags": [],
+                "tags": [
+                    {
+                        "key": "team",
+                        "value": "cse"
+                    },
+                    {
+                        "key": "application",
+                        "value": "example"
+                    }
+                ],
                 "branch": "main",
                 "type": "npm",
                 "status": "active",
@@ -937,7 +1000,16 @@
             {
                 "id": "b740c913-ce26-44ad-bc43-8e505b3ed085",
                 "name": "snyk-playground/org-project-import(main):package.json",
-                "tags": [],
+                "tags": [
+                    {
+                        "key": "team",
+                        "value": "cse"
+                    },
+                    {
+                        "key": "application",
+                        "value": "example"
+                    }
+                ],
                 "branch": "main",
                 "type": "npm",
                 "status": "active",
@@ -1009,7 +1081,12 @@
             {
                 "id": "dbe31141-43a9-43c7-99aa-bc480eee8b97",
                 "name": "snyk-playground/docker-goof(master):package.json",
-                "tags": [],
+                "tags": [
+                    {
+                        "key": "application",
+                        "value": "example"
+                    }
+                ],
                 "branch": "master",
                 "type": "npm",
                 "status": "active",
