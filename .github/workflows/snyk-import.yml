@@ -1,0 +1,53 @@
+name: Snyk Import
+
+on:
+  workflow_dispatch:
+
+jobs:
+  snyk-import:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - uses: actions/cache@v2
+        with:
+          path: cache
+          key: ${{ hashFiles('snyk-*.yaml') }}
+
+      - name: Run snyk-sync to generate targets
+        uses: ./.github/actions/snyk-sync
+        with:
+          arguments: --sync targets --save
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.SNYK_GITHUB_TOKEN }}
+
+      - name: Store import targets
+        uses: actions/upload-artifact@v2
+        with:
+          name: snyk-api-import-targets
+          path: targets/
+
+      - name: Run snyk-api-import to import new repositories
+        uses: ./.github/actions/snyk-api-import
+        with:
+          arguments: import --file /github/workspace/targets/${{ SNYK_GROUP_NAME }}.json
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+          SNYK_GROUP_NAME: customer-success-engineering
+          SNYK_LOG_PATH: cache/logs
+
+      - name: Store import logs
+        uses: actions/upload-artifact@v2
+        with:
+          name: snyk-api-import-logs
+          path: cache/logs
+
+      - name: Run snyk-sync to update tags
+        uses: ./.github/actions/snyk-sync
+        with:
+          arguments: tags --update
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.SNYK_GITHUB_TOKEN }}
